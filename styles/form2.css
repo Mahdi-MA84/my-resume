@@ -1,0 +1,90 @@
+/* Body styling */
+body {
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    flex-direction: column;  /* stack header and section vertically */
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    height: 100vh;           /* full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header h1 {
+    text-align: center;
+    font-size: 78px;
+    color: violet;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px yellow;
+    margin-bottom: 20px;
+}
+
+/* Section (form container) */
+.section {
+    background-color: #bdb2b2;
+    border-radius: 20px;
+    border: 3px solid;
+    border-right-color: green;
+    border-left-color: yellow;
+    border-top-color: red;
+    border-bottom-color: blue;
+    width: 650px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;  /* center the form inside the section */
+    align-items: center;
+}
+
+/* Form styling - Solution 1: vertical flex */
+.section form {
+    display: flex;
+    flex-direction: column; /* stack labels and inputs vertically */
+    align-items: flex-start; /* align items to the left */
+    width: 100%;
+}
+
+/* Label + input containers */
+.username-container,
+.password-container {
+    display: flex;
+    flex-direction: column; /* label above input */
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight:700;
+    color: rgb(9, 6, 52);
+}
+
+/* Inputs */
+input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    width: 100%;
+    box-sizing: border-box;
+}
+input:focus {
+    outline: 3.5px solid rgb(93, 234, 196);
+}
+
+
+/* Button */
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(60, 106, 165);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start; /* keep button aligned left with form items */
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(57, 57, 175);
+}

@@ -1,0 +1,99 @@
+body{
+    background-color: violet;
+}
+.header{
+    text-align: center;
+
+}
+.header .hr1{
+    width: 30px;
+    border-color: black;
+}
+.hr2{
+    border-color: black;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(189, 62, 189);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+.navbar a:hover{
+    background-color: rgb(247, 1, 247);
+}
+.section{
+    background-color: rgb(255, 158, 176);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+}
+.section p{
+    text-align: justify;
+    line-height: 30px;
+}
+.button{
+    display: inline-block;
+    margin-left: 43vw;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: violet;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: yellow;
+}
+.contact{
+    text-align: center;
+}
+.buttoncontact{
+   display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border: 5px solid rgb(57, 201, 95);
+    border-radius: 10px;
+    background-color: violet;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttoncontact:hover{
+     background-color: yellow;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.377);
+    
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.fa-brands.fa-telegram.fa-3x {
+    color: #0088cc;
+    float: right;
+    
+    
+}
+.fa-brands.fa-instagram.fa-3x{
+     color: #E4405F; /* Instagram pink/red */
+    float: right;
+}
+.fa-brands.fa-whatsapp.fa-3x{
+    color: #25D366;
+    float: right;
+}
